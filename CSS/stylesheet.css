@@ -1,13 +1,17 @@
 /* Border para correcciones */
+
+
 /*
 * {
     border: black 2px solid;
 }
 */
+
+
 /* formato general */
 
 body {
-    font: 18px/1.5 Arial, Helvetica, sans-serif;
+    font: 16px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     border: 0;
@@ -124,16 +128,12 @@ header a:hover {
     padding: 15px;
 }
 
-#cajas .box .dark {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
+#cajas .box .dark {}
 
 #cajas .box p {
-    width: 300px;
-    
+    width: auto;
     text-align: center;
+    margin: auto;
 }
 
 #cajas .box img {
@@ -212,6 +212,7 @@ div.desc {
     padding: 10px;
     text-align: center;
     font-size: 15px;
+    height: 60px;
 }
 
 div.responsivo {
@@ -223,6 +224,7 @@ div.responsivo {
     .responsivo {
         width: 49.99999%;
         margin: 6px 0;
+        font-size: 15px;
     }
 }
 
@@ -237,6 +239,15 @@ div.responsivo {
 
 #principal h2 {
     text-align: center;
+}
+
+
+/* estilo imagenes acerca */
+
+div.imga {
+    margin: auto;
+    text-align: center;
+    width: 85%;
 }
 
 
