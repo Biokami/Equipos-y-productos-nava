@@ -48,7 +48,7 @@ header {
     color: #CCCCCC;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #FFCC00 5px solid;
+    border-bottom: #FFCC00 7px solid;
 }
 
 header a {
@@ -180,7 +180,7 @@ footer {
     margin-top: 20px;
     color: #cccccc;
     background-color: #172952;
-    border-top: #FFCC00 5px solid;
+    border-top: #FFCC00 7px solid;
     text-align: center;
 }
 
@@ -220,7 +220,24 @@ div.responsivo {
     float: left;
 }
 
-@media only screen and (max-width: 700px) {
+
+/* Media quesries empiezan aqui */
+
+@media only screen and (max-width: 768px) {
+    header #branding,
+    header nav,
+    header nav li,
+    #cajas .box {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header {
+        padding-bottom: 20 px;
+    }
+    #showcase h1 {
+        margin-top: 40px;
+    }
     .responsivo {
         width: 49.99999%;
         margin: 6px 0;
